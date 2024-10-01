@@ -1,0 +1,17 @@
+.packed-items {
+    background-color: #67C1A3;
+    color:#3C1B10;
+    font-weight: bold;
+    font-style: italic;
+    width: 100%; 
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bag{
+    width: 20px;
+    height: 20px; ;
+}

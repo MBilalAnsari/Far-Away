@@ -1,0 +1,35 @@
+.Subnav {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    gap: 20px;
+    background-color: hsl(25, 79%, 49%);
+
+}
+
+.Subnav select,
+.Subnav input {
+    border-radius: 20px;
+    border: none; /* Remove default border */
+    padding: 10px; /* Add some padding */
+    font-size: 16px; /* Increase font size for better readability */
+}
+
+.Subnav button {
+    border-radius: 20px; /* Make button round */
+    padding: 10px 20px; /* Adjust padding for button */
+    font-size: 16px; /* Increase font size */
+    background-color:#67C1A3; /* Button background color */
+    color: #000000; /* Button text color */
+    /* border: none;  */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.Subnav button:hover {
+    background-color: #258a7b; /* Change background on hover */
+}
+.Subnav div p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
