@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <LogoHead/>
-      <Subnav  setitemList={setItemList} />
+      {/* <Subnav  setitemList={setItemList} /> */}
       <Bodyitems itemList={itemList} setItemList={setItemList} />
       <Packeditems itemList={itemList} />
     </div>
